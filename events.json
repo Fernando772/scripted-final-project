@@ -1,7 +1,31 @@
-{
-    "name":"33rd Annual GrowTogether Conference",
-    "location":"Hostos Community College, Bronx",
+[{
+    "name": "33rd Annual GrowTogether Conference",
+    "location": "Hostos Community College, Bronx",
     "date": "3/25/17",
-    "Summary" : "Come celebrate the official kick-off of the community gardening season in New York City. The day will be packed with more than 30 workshops on garden related topics",
-    "picture" : "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F25901335%2F158005865591%2F1%2Foriginal.jpg?w=480&rect=0%2C148%2C1800%2C900&s=744fedcf86d2579c02a122973f2cc915",
-} 
+    "Summary": "Come celebrate the official kick-off of the community gardening season in New York City. The day will be packed with more than 30 workshops on garden related topics",
+    "picture": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F25901335%2F158005865591%2F1%2Foriginal.jpg?w=480&rect=0%2C148%2C1800%2C900&s=744fedcf86d2579c02a122973f2cc915"
+}, {
+    "name": "Astor Blaster Silent Disco",
+    "location": "Astor Place Cube, Queens",
+    "date": "5/5/17",
+    "Summary": "Celebrate with a free silent dance party. get down to three live DJs—or pop on your own headset and dance to the beat of your own drummer before the party continues with specials at local bars",
+    "picture": "https://media.timeout.com/images/100492597/image.jpg"
+}, {
+    "name": "Dinner with the Divas",
+    "location": "Lips , Midtown East",
+    "date": "Until Thursday June 22 2017",
+    "Summary": "NYC's 20 year-old drag hub Lips welcomes you to enjoy a night of old-school dinner theater while master impersonator Jesse Volt buzzes on and off stage as Joan Rivers,",
+    "picture": "https://static1.squarespace.com/static/5621d037e4b08f404f0c8cd2/t/56908b0cbfe873d739378b3d/1452313358187/"
+}, {
+    "name": "Fishpeople Screening",
+    "location": "Patagonia Bowery , East Village",
+    "date": "Thursday May 4 2017",
+    "Summary": "Discover the ways the ocean nourishes the body and soul in this documentary film by Keith Malloy",
+    "picture": "https://s3-media3.fl.yelpcdn.com/bphoto/N26pno_IewLksg3_OkY54Q/ls.jpg"
+}, {
+    "name": "Golden Spiral Comedy",
+    "location": "HiFi , East Village",
+    "date": " Until Thursday December 7 2017",
+    "Summary": "Katie Compa and Mindy Raf invite top comics to share the stage at this free monthly stand-up show in the East Village.",
+    "picture": "https://static.designmynight.com/uploads/2012/11/eastvillageshoreditch1-620x370-optimised.jpg"
+}]
