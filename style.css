@@ -1,14 +1,20 @@
+body{
+    background-image: url("http://www.planwallpaper.com/static/images/518151-backgrounds_W3qVPu2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .contain{
     width:600px;
     margin:0px auto;
     border:solid;
-    border-color:black;
+    border-color:white;
+    background-color: white; 
 }
 .event{
     width:100%;
     margin-bottom:50px;
     border:solid;
-    border-color:red;
+    border-color:black;
 }
 .name{
    width:100%;
@@ -19,33 +25,51 @@
 .ls{
     width:70%;
     height:100px;
-    border:5px solid;
-    border-color: green;
+    border:0px solid black;
     display: inline-block;
 }
 .pd{
     width:29%;
     /*height:100px;*/
     display: inline-block;
-    border: 5px solid;
+    border: 5px solid black;
 }
 .location{
     width:auto;
     height:20px;
-    border:solid;
+    border:solid black;
 }
 .summary{
     width:100%;
-    border:solid;
+    border:solid white;
+    animation-name: summary;
+    animation-duration:10s; 
 }
 .picture{
     width:auto;
-    border:black;
+    border:white solid;
+    animation-name: pic;
+    animation-duration: 10s;
 }
 .picture img {
     width: 100%;
 }
 .date{
     height:60px;
-    border:black;
+    border:white solid ;
+    animation-name: date;
+    animation-duration:10s;
+    
+}
+@keyframes pic{
+    from {border-color: white;}
+    to {border-color: black;}
+}
+@keyframes date{
+    from {border-color: white } 
+    to{border-color:black; }
+}
+@keyframes summary{
+    from {border-color:white; }
+    to{border-color:black; }
 }
