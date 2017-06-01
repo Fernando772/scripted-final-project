@@ -7,8 +7,8 @@ body{
     width:600px;
     margin:0px auto;
     border:solid;
-    border-color:white;
-    background-color: white; 
+    border-color:black;
+     background: linear-gradient(blue,red);
 }
 .event{
     width:100%;
@@ -21,55 +21,69 @@ body{
    border:solid;
    border-color:black;
    text-align: center;
+   color:white;
+   font: 100%/1.5 "Roboto", Verdana, sans-serif;
+    -webkit-transition:opacity 1s,background 1s,width 1s,height 1s,font-size 1s;
 }
 .ls{
     width:70%;
     height:100px;
     border:0px solid black;
     display: inline-block;
+    font: 100%/1.5 "Roboto", Verdana, sans-serif;
+    color:white;
+    text-align:center;
 }
 .pd{
     width:29%;
     /*height:100px;*/
     display: inline-block;
     border: 5px solid black;
+    font: 100%/1.5 "Roboto", Verdana, sans-serif;
+    color:white;
 }
 .location{
     width:auto;
-    height:20px;
+    height:25px;
     border:solid black;
+    text-align: center;
+    color:white;
+     -webkit-transition:opacity 1s,background 1s,width 1s,height 1s,font-size 1s;
 }
 .summary{
     width:100%;
-    border:solid white;
-    animation-name: summary;
-    animation-duration:10s; 
+    border:solid black;
+     -webkit-transition:opacity 1s,background 1s,width 1s,height 1s,font-size 1s;
 }
 .picture{
     width:auto;
-    border:white solid;
-    animation-name: pic;
-    animation-duration: 10s;
+    border:black solid;
 }
 .picture img {
     width: 100%;
 }
 .date{
     height:60px;
-    border:white solid ;
-    animation-name: date;
-    animation-duration:10s;
-    
+    border:black solid ;
+    font: 100%/1.5 "Roboto", Verdana, sans-serif;
+    -webkit-transition:opacity 1s,background 1s,width 1s,height 1s,font-size 1s;
 }
-@keyframes pic{
-    from {border-color: white;}
-    to {border-color: black;}
+.name:hover{
+    font-size:20px;
+    background:#1ec7e6;
+    color:black;
 }
-@keyframes date{
-    from {border-color: white } 
-    to{border-color:black; }
-}
-@keyframes summary{
-    from {border-color:white; }
-    to{border-color:black; }
+.date:hover{
+    font-size:20px;
+    background:#1ec7e6;
+    color:black;
+}.summary:hover{
+    font-size:25px;
+    background:#1ec7e6;
+    color:black;
+}.location:hover{
+    font-size:20px;
+    background:#1ec7e6;
+    height:35px;
+    color:black;
 }
