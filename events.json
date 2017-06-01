@@ -31,7 +31,31 @@
 }, {
     "name": "African Burial Ground National Monument",
     "location": "290 Broadway Manhattan, NY 10007 Tribeca",
-    "date": "Past, present and future",
+    "date": "Past, Present and Future",
     "Summary": " The site includes commissioned artwork and a respectful exterior memorial, where many tributes to the deceased and community events have since taken place.",
     "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/African_Burial_Ground-aerial_view-NYC.jpg/325px-African_Burial_Ground-aerial_view-NYC.jpg"
+}, {
+    "name": "Queens County Farm Museum",
+    "location": "73-50 Little Neck Pkwy. Queens, NY 11004",
+    "date": "Past, Present, and Future",
+    "Summary": "Enjoy a taste of the country when you visit this museum, situated on the largest remaining tract of farmland in the Big Apple. Nestled within the 47-acre property are historic farm buildings, greenhouses, an orchard and herb garden, farm machinery, and goats, pigs and other animals. ",
+    "picture": "http://www.queensfarm.org/images/PumpkinPatch_000.jpg"
+}, {
+    "name": "Snug Harbor Cultural Center & Botanical Garden",
+    "location": "1000 Richmond Terr. Staten Island, NY 10301",
+    "date": "Past, Present, and Future",
+    "Summary": "The 23 historical buildings, nine botanical gardens and 10 acres of wetlands—set on an 83-acre campus—are the elements of a regional arts center where history, architecture, visual art, theater, dance, music and environmental science provide dynamic experiences for all ages.",
+    "picture": "http://snug-harbor.org/wp-content/uploads/2015/06/NYCSG_Interior-1110x400.png"
+}, {
+    "name": "Wave Hill",
+    "location": "675 W. 252nd St. Bronx, NY 10471 Riverdale",
+    "date": "Every Saturday",
+    "Summary": "Wave Hill is a public garden and cultural center in the Bronx overlooking the Hudson River, with sweeping views west to the New Jersey Palisades. Aside from the traditional gardens that one expects, Wave Hill has some more unexpected surprises, like paths that wind across a carpet of bright wildflowers in springtime and a pool adorned with water lilies and lotus flowers through the summer and fall.",
+    "picture": "https://www.newyorkpass.com/images/nyc-attractions/attraction-images-670x270/AttImg_WaveHill1_large.jpg"
+}, {
+    "name": "The Frick Collection",
+    "location": "1 E. 70th St. Manhattan, NY 10021 Upper East Side",
+    "date": "Sundays",
+    "Summary": "The Frick Collection, a beautiful mansion-turned-art museum, is the home of many traditional paintings, including works by a number of famous artists like Monet and Renoir. ",
+    "picture": "http://thevanderlust.com/img/th/e_/the_frick_collection_3_jpg_1471551453.jpg$i$min$822$530$cc$$.jpeg"
 }]
