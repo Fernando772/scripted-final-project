@@ -77,6 +77,7 @@ body{
     font-size:20px;
     background:#1ec7e6;
     color:black;
+    height:93px;
 }.summary:hover{
     font-size:25px;
     background:#1ec7e6;
@@ -86,4 +87,36 @@ body{
     background:#1ec7e6;
     height:35px;
     color:black;
+}
+/*How the page supposed to look when it loads*/
+#loader-wrapper .loader-section {
+    position: fixed;
+    top: 0;
+    width: 51%;
+    height: 100%;
+    background: #222222;
+    z-index: 1001;
+}
+ 
+#loader-wrapper .loader-section.section-left {
+    left: 0;
+}
+ 
+#loader-wrapper .loader-section.section-right {
+    right: 0;
+}
+/* Loaded */
+.loaded #loader-wrapper .loader-section.section-left {
+
+transform: translateX(-100%);  /* Firefox 16+, IE 10+, Opera */
+}
+ 
+.loaded #loader-wrapper .loader-section.section-right {
+transform: translateX(100%);  /* Firefox 16+, IE 10+, Opera */
+}
+.loaded #loader {
+    opacity: 0;
+}
+.loaded #loader-wrapper {
+    visibility: hidden;
 }
